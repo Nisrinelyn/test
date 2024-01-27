@@ -36,7 +36,7 @@
           var animationDur = Math.random() * 5000 + 3000; // Random duration between 3000 and 8000 milliseconds
 
           document.write(
-            '<a-entity gltf-model="Cute.glb" position="' + x + ' ' + y + ' ' + z + '" scale="0.5 0.5 0.5" rotation="0 ' + (angle + Math.PI / 2) + ' 0" animation__cute="property: rotation; to: 0 360 0; loop: true; easing: linear; dur: ' + animationDur + '" sound__cute="src: #cuteSound; on: click"></a-entity>'
+            '<a-entity gltf-model="cute.glb" position="' + x + ' ' + y + ' ' + z + '" scale="0.5 0.5 0.5" rotation="0 ' + (angle + Math.PI / 2) + ' 0" animation__cute="property: rotation; to: 0 360 0; loop: true; easing: linear; dur: ' + animationDur + '" sound__cute="src: #cuteSound; on: click"></a-entity>'
           );
         }
       </script>
